@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="Farmington, Farmington Houses, Florence Way, Farmington CT Houses, Sale, Condo, By owner, Connecticut">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="For sale by owner 4bdr 3bth condo in Southwest condominium association in Farmington CT" content="">
+    <meta name="Olegus" content="">
+    <!--<link rel="icon" href="../../favicon.ico">-->
+
+    <title>19 Florence Way, Farmington CT</title>
+	<link rel="shortcut icon" href="images/home.ico">
+ <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    
+    <!-- Bootstrap core CSS -->
+    <!--<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+   <!--<link href="bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet">-->
+
+   <!-- Latest compiled and minified CSS -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+
+<!-- Optional theme -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+-->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="bootstrap/js/ie-emulation-modes-warning.js"></script>-->
+ <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function () {
+        $('ul.nav > li').click(function (e) {
+            e.preventDefault();
+            $('ul.nav > li').removeClass('active');
+            $(this).addClass('active');                
+        });            
+    });
+	</script>
+    <script>
+		$(document).ready(function () {
+			$("input#submit").click(function(){
+				$.ajax({
+					type: "POST",
+					url: "process.php", // 
+					data: $('form.contact').serialize(),
+					success: function(msg){
+						$("#thanks").html(msg)
+						$("#form-content").modal('hide');	
+					},
+					error: function(){
+						alert("failure");
+					}
+				});
+			});
+		});
+    </script>
+	
+  </head>
+
+  <body>
+
+   
+<div id="header">
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">19 Florence Way</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li ><a href="#overview">Overview</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#map">Map</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a data-toggle="modal" href="#form-content"><span class="glyphicon glyphicon-envelope"></span> 19FlorenceWay@gmail.com</a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-user"></span> (860) 269-5467</a></li>
+		
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container">
+
+	
+	
+      <div class="starter-template">
+	  
+        <h1 class="text-white text-large">19 Florence Way</h1>
+		<h4 class="text-white text-stretch">Farmington CT</h4>
+                <hr class="hr-short">
+                <h4 class="text-white">for sale by owner</h4>
+				<h6 class="text-white no-padding-margin">today's price</h6>
+                <h1 class="text-yellow no-padding-margin">$315,000<sup>*</sup></h1>
+<br><br><br>
+				<a class="btn btn-default" href="docs/real_estate_property_condition_disclosure_form_rev.pdf">Download disclosure</a>
+				<a data-toggle="modal" href="#form-content" class="btn btn-default">Contact owner</a>
+				<br><br><br>
+      </div>
+</div>
+    <!-- /.container -->
+	
+	<div class="Box1">
+	
+               <h4 class="text-white"> 4 bedroom 3 bathroom  2236 sq. ft.</h4>
+            </div>
+			
+</div>
+
+ <!-- Modal HTML -->
+    <div id="form-content" class="modal fade">
+        <div class="modal-dialog">
+		
+            <div class="modal-content">
+                <div class="modal-header">
+                   <a class="close" data-dismiss="modal">×</a>
+					<h3>Send me a message</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="contact" name="contact">
+					<label class="label-inverse" for="name">Your Name</label><br>
+					<input type="text" name="name" class="form-control"><br>
+					<label class="label-inverse" for="email">Your E-mail</label><br>
+					<input type="email" name="email" class="form-control"><br>
+					<label class="label-inverse" for="message">Enter a Message</label><br>
+					<textarea name="message" class="form-control"></textarea>
+				</form>
+                </div>
+                <div class="modal-footer">
+                   <input class="btn btn-success" type="submit" value="Send!" id="submit">
+				<a href="#" class="btn btn-danger" data-dismiss="modal">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+ <a name="overview"></a>
+  <!--Overview-->
+  <div class="container">
+  <span class="glyphicon glyphicon-usd"></span><sup>*</sup> - direct buyer's discount available! <a href="#contacts">Contact owner</a> for details.
+  <div class="row">
+  <div class="col-md-12">
+  <div class="panel panel-primary">
+    <div class="panel-heading"><h4>Overview</h4></div>
+    <div class="panel-body"><p> Rarely available spacious 4 bedrooms/3 bathrooms end unit in highly desirable Southwest Village condominium association in Farmington.</p> <p>The main level features hardwood flooring, large bright living room with a gas fireplace and a french door to the backyard facing wooden deck, open style kitchen with a double sink, garbage disposer and plenty of storage, spacious dining room with vaulted ceilings and a bedroom/office room with dedicated full bathroom, tile flooring and vaulted ceilings.</p>
+	<p> Brightly lit wooden stairwell goes upstairs, where a master suit with a master bathroom and a walk-in closet with california style shelving is situated. There are also two other bedrooms and another full bathroom upstairs.</p>
+	<p> Hardwood floors on the main level, new carpet in upstairs bedrooms. The unit also has a spacious unfinished basement with walk out, natural gas heating, full house air humidifier, central air conditioner and central vacuum. Very convenient location in Farmington, short drive to highway and Bristol shopping plazas, low condo fees. Complex is tree lined with walking trails for exercising and dog walking.</p></div>
+  </div>
+ </div>
+ </div>
+ 
+ <!--Gallery and details-->
+ <a name="gallery"></a>
+ <a name="details"></a>
+<div class="row">
+	<div class= "col-s-12 col-md-12">
+	<div class="panel panel-primary">
+    <div class="panel-heading"><h4>Gallery</h4></div>
+    <div id = "juicebox-container" class="panel-body"><!--START JUICEBOX EMBED-->
+                    <script src="jbcore/juicebox.js"></script>
+                    <script>
+                        new juicebox({
+                            containerId: "juicebox-container",
+                            galleryWidth: "100%",
+                            galleryHeight: "60%",
+                            backgroundColor: "#fff"
+                        });
+                    </script>
+                    <!--<div id="juicebox-container"></div>-->
+                    <!--END JUICEBOX EMBED--></div>
+  </div>
+	</div>
+	</div>
+	<div class="row">
+	<div class= "col-s-6 col-md-6">
+		
+	
+		<div class="panel panel-primary">
+			<div class="panel-heading"><h4>Property Details</h4></div>
+			<div class="panel-body padding-left-20">
+					<li>Living room: main level, gas fireplace, french door, 18.6x16</li>
+					<li>Dining room: main level, vaulted ceilings, french door, 17x11</li>
+					<li>Kitchen: main level, electric stove, 12.7x8</li>
+					<li>Laundry: upstairs, electric stove, 12.7x8</li>
+					<br>	
+					<li>Total bedrooms: 4</li>
+					<li>Master bedroom: upstairs, walk-in closet, full bathroom, ceiling fan, 18x16</li>
+                    <li>2nd bedroom: upstairs, walk-in closet, ceiling fan, 11x12</li>
+                    <li>3rd bedroom: upstairs, walk-in closet, 11x11</li>
+                    <li>4th bedroom: main level, vaulted ceilings, walk-in closet, full bathroom, 12x11</li>
+					<li>Bathrooms: 3 full</li>
+					
+                    <br>
+                    <li>Heat: Warm Air</li>
+                    <li>Heat source: Natural Gas</li>
+                    <li>Water: Public</li>
+                    <li>Sewer: Public</li>
+                    <li>Air Conditioner: Yes, central</li>
+                    <li>Humidifier: Yes, whole house</li>
+                    <li>Basement: Unfinished with walk out</li>
+                    <li>Garage: 1 car attached</li>
+                    <li>Attic: Yes, storage</li>
+					
+			</div>
+			
+			
+			</div>
+		</div>
+		
+		<div class= "col-s-6 col-md-6">
+		
+	
+		<div class="panel panel-primary">
+			<div class="panel-heading"><h4>Property Details</h4></div>
+			<div class="panel-body padding-left-20">
+			 <p>
+                    <li>Year built: 1999</li>
+                    <li>Area (Sq.Ft): 2236 </li>
+                    <li>Taxes: $4540</li>
+                    <li>Association fee: $230</li>
+					<br>
+					<li>Wooden deck</li>
+                    <li>Ceiling Fans in some bedrooms </li>
+                    <li>Smoke detectors</li>
+					<br>
+                    <li>Electric range/oven</li>
+                    <li>Microwave</li>
+                    <li>Dishwasher</li>
+                    <li>Garbage disposer</li>
+                    <li>Washer</li>
+                    <li>Dryer</li>
+                    <li>Refrigerator</li>
+				</p>
+			</div>
+			</div><!--panel-->
+		</div><!--column-->
+		</div><!--row-->
+	
+	<a name="map"></a>
+	<a name="contacts"></a>
+	<div class="row">
+		<div class= "col-md-8">
+		<div class="panel panel-primary">
+			<div class="panel-heading"><h4>Location</h4></div>
+			<div class="panel-body">
+		<div class="Flexible-container">
+		<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=en&q=19 Florence Way&ie=UTF8&t=roadmap&z=17&iwloc=B&output=embed"></iframe>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class= "col-md-4">
+		<div class="panel panel-primary">
+			<div class="panel-heading"><h4>Contacts</h4></div>
+			<div class="panel-body">
+			 
+                   <span class="glyphicon glyphicon-envelope"></span> <a data-toggle="modal" href="#form-content" >19FlorenceWay@gmail.com</a><br>
+				   <span class="glyphicon glyphicon-phone-alt"></span> (860) 269-5467<br>
+				   <span class="glyphicon glyphicon-home"></span> 19 Florence Way, Farmington CT, 06032<br>
+				   <a href= "https://www.facebook.com/profile.php?id=100011400244998"><i class="fa fa-facebook fa-lg"></i> Join me on Facebook</a> <br>
+				   <a href= ""><i class="fa fa-twitter fa-lg"></i> Follow me on Twitter</a> 
+				   
+			</div>
+			</div><!--panel-->
+		</div>
+	</div>
+	
+	</div><!--container-->
+	<div id="footer">
+	<div class="container">
+            <h5 class="text-white">Design: Oleg&Alisa </h5>
+			<h5 class="text-white">Contacts: Oleg&Alisa </h5>
+			<p class="text-white">&copy; Copyright 2016 <p>
+			
+        </div>
+	</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
+    <!--<script>window.jQuery || document.write('<script src="bootstrap/js/vendor/jquery.min.js"><\/script>')</script>-->
+    <!--<script src="bootstrap/js/bootstrap.min.js"></script>-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="bootstrap/js/ie10-viewport-bug-workaround.js"></script>-->
+  </body>
+</html>
